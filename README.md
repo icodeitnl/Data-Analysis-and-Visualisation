@@ -1,4 +1,4 @@
-# Data-Analysis-and-Visualisation
+# Data-Analysis-and-Visualisation :shipit:
 
 Context
 
@@ -15,14 +15,18 @@ The second part prepares the data for the following analysis, extracting the rel
 
 Furtheron, Monthly Revenue and Revenue Growth Rate is being calculated and visualised on a graph in time ranges from Peak 201609 - 201704,  201609 - 201809 and 201709 - 201803
 
-Revenue Growth Rate Full Range 
+**Revenue Growth Rate** :shipit:
+*Full Range*
 <img src="https://github.com/icodeitnl/Data-Analysis-and-Visualisation/blob/master/RevenueGrowthRate201609.png"/>
 
-Revenue Growth Rate Peak 201609 - 201704
+**Revenue Growth Rate** :shipit:
+*Peak from 201609 to 201704*
 <img src="https://github.com/icodeitnl/Data-Analysis-and-Visualisation/blob/master/RevenueGrowthRatePeak.png"/>
 
-Revenue Growth Rate Random Selection 201709 - 201803
+**Revenue Growth Rate** :shipit:
+*Random Selection from 201709 to 201803*
 <img src="https://github.com/icodeitnl/Data-Analysis-and-Visualisation/blob/master/RevenueGrowthRate201710.png"/>
 
-Monthly Revenue 
+**Monthly Revenue** :shipit:
 <img src="https://github.com/icodeitnl/Data-Analysis-and-Visualisation/blob/master/MonthlyRevenue.png"/>
+
