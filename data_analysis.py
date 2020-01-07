@@ -329,7 +329,7 @@ customers_ratio = price_customers_products_time.query("customers == 'new'").grou
 customers_ratio = customers_ratio.reset_index()
 customers_ratio = customers_ratio.dropna()
 
-# Plot New Customer Ratio
+# Plot New Customer Ratio in 2018
 fig = go.Figure(
     data=go.Bar(x=customers_ratio.query("order_purchase_timeyearmonth>201801 and order_purchase_timeyearmonth<201809")['order_purchase_timeyearmonth'],
         y= customers_ratio.query("order_purchase_timeyearmonth>201801 and order_purchase_timeyearmonth<201809")['customer_unique_id'], 
