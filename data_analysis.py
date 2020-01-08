@@ -267,7 +267,7 @@ customers_revenue = price_customers_products_time.groupby(['order_purchase_timey
 # Filtering the dates and plot the result
 customers_revenue = customers_revenue.query("order_purchase_timeyearmonth != 201609 and order_purchase_timeyearmonth != 201809")
 
-# Plot New Customer Ratio
+# Plot New and Old Customers
 print(customers_revenue.sample(10))
 print(customers_revenue.describe())
 
