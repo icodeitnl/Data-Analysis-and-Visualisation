@@ -287,7 +287,7 @@ fig.update_layout(
     margin=dict(l=20, r=20, t=20, b=20),
     title='New and Old Customers',
     xaxis={"type": "category",  "title":'Months'},
-    yaxis={"title":'Revenue'}
+    yaxis={"title":'Revenue'},
     paper_bgcolor="IndianRed",
     plot_bgcolor="Gainsboro",
     font=dict(
