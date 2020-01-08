@@ -38,7 +38,7 @@ Next, we are going to look at the **Monthly Sales**. As expected, the record amo
 
 **Average Revenue Per Order** is an important indicator of the business wellbeing. *December 2016* was marked by the most modest **average revenue** of *10 reais*. The highest average *of 156 reais* was reached in *September 2017* and the average revenue per order is *130 reais*.
 
-<img src="https://github.com/icodeitnl/Data-Analysis-and-Visualisation/blob/master/MonthlySales.png"/>
+<img src="https://github.com/icodeitnl/Data-Analysis-and-Visualisation/blob/master/AverageRevenuePerOrder.png"/>
 
 To explore business growth opportunities, the management needs to know its **New Customer Ratio**. The pattern of the plot resembles *monthly revenue* graph. It also reveals that new clients brough almost all of the  business revenue. *June 2018* brought *29.87k reais* in revenue by old customers comparing to *945.20k reais* by the new ones.
 
