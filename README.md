@@ -15,7 +15,7 @@ The second part prepares the data for the following analysis, extracting the rel
 
 Further on, Monthly Revenue and Revenue Growth Rate is calculated and visualised on a graph.
 
-**Monthly Revenue** grew steadily untill *November 2017* when it reached it’s peak of almost *1.2 million* orders. *December* followed by a drop to the amount of the previous month of *October*. A slight increase in orders by *two hundred thousand* is observed in *January* with a backdrop and raise of about a *hundred thousand in March 2018* and remained relatively the same all the way through *April till May 2015*. Starting from month of *May*, the orders decreased to *1 million* and from *August to September* plummeted to zero in one month.
+**Monthly Revenue** grew steadily untill *November 2017* when it reached it’s peak of *1.176 million* reais. *December* followed by a drop to the amount of the previous month of *October*. A slight increase in orders by *two hundred thousand* is observed in *January* with a backdrop and raise of about a *hundred thousand in March 2018* and remained relatively the same all the way through *April till May 2015*. Starting from month of *May*, the orders decreased to *1 million* and from *August to September* plummeted to zero in one month.
 
 <img src="https://github.com/icodeitnl/Data-Analysis-and-Visualisation/blob/master/MonthlyRevenue.png"/>
 
@@ -28,8 +28,17 @@ Zoom into random 4 month period from 201709 to 201803 reveals minor fluctuations
 
 <img src="https://github.com/icodeitnl/Data-Analysis-and-Visualisation/blob/master/RevenueGrowthRate201710.png"/>
 
-One way to increase the revenue is to understand the client's behavior. Therefore, first we need to keep the track of **Monthly Active Users.** A record quantity of *7342* active users ordered in November 2017. 
+One way to increase the revenue is to understand the client's behavior. Therefore, first we need to keep the track of **Monthly Active Users.** A record quantity of *7342* active users ordered in November 2017. From *May 2017* when the amount of users reached *3588* users the monthly number doubled in *November 2011* and untill *September 2018* was not gowing lower then *5557 users(201712)*. September 2018 shows no active users which explains the abrupt revenue drop.
+
 <img src="https://github.com/icodeitnl/Data-Analysis-and-Visualisation/blob/master/ActiveUsers.png"/>
+
+Next, we are going to look at the **Monthly Sales**. As expected, the record amount of *10.63k* items were sold in *November 2017.*. The plot pattern looks similar in shape to the monthly active users.
+
+<img src="https://github.com/icodeitnl/Data-Analysis-and-Visualisation/blob/master/MonthlySales.png"/>
+
+
+
+
 
 
 
