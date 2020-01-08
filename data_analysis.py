@@ -1,6 +1,7 @@
 from datetime import datetime, timedelta
 import pandas as pd
 import numpy as np
+import plotly.graph_objs as go
 import matplotlib
 import os
 
@@ -308,8 +309,8 @@ customers_ratio = customers_ratio.dropna()
 
 # Plot New Customers Rate
 fig = go.Figure(
-    data=go.Bar(x=customers_ratio.query("order_purchase_timeyearmonth>201801 and order_purchase_timeyearmonth<201809")['order_purchase_timeyearmonth'],
-        y= customers_ratio.query("order_purchase_timeyearmonth>201801 and order_purchase_timeyearmonth<201809")['customer_unique_id'], 
+    data=go.Bar(x=customers_ratio.query("order_purchase_timeyearmonth>=201609 and order_purchase_timeyearmonth<=201809")['order_purchase_timeyearmonth'],
+        y= customers_ratio.query("order_purchase_timeyearmonth>201609 and order_purchase_timeyearmonth<=201809")['customer_unique_id'], 
         marker={"color":"Olive"}),
     layout= go.Layout(
         xaxis={"type": "category", "title":'Months'},
