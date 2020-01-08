@@ -75,34 +75,7 @@ print(revenue.sample(10))
 print(revenue.info())
 print(revenue.describe())
 
-
-
-# Revenue Growth Rate Range 201609 - 201704
-fig = go.Figure(
-    data=go.Scatter(x=revenue.query("201609 < order_purchase_timeyearmonth < 201704")['order_purchase_timeyearmonth'],
-        y=revenue.query("201609 < order_purchase_timeyearmonth < 201704")['growth_rate'], marker={"color":"IndianRed"}, line={"width": 4.5}),
-    layout= go.Layout(
-        xaxis={"type": "category", "title":'Monthly Orders'},
-        yaxis={"title":'Revenue Growth Rate'},
-        title='Revenue Growth Rate'
-        )
-    )
-fig.update_layout(
-    margin=dict(l=20, r=20, t=20, b=20),
-    paper_bgcolor="IndianRed",
-    plot_bgcolor="Gainsboro",
-    font=dict(
-        family='Courier New, monospace',
-        size=14,
-        color="Gainsboro"),
-    titlefont=dict(
-        family='Courier New, monospace',
-        size=18,
-        color="Gainsboro")
-)
-fig.show()
-
-# Plot Revenue Growth Rate < 201809
+# Plot Revenue Growth Rate Full Range
 fig = go.Figure(
     data=go.Scatter(x=revenue.query("order_purchase_timeyearmonth < 201809")['order_purchase_timeyearmonth'],
         y=revenue.query("order_purchase_timeyearmonth < 201809")['growth_rate'], marker={"color":"IndianRed"},line={"width": 4.5}),
@@ -127,7 +100,7 @@ fig.update_layout(
 )
 fig.show()
 
-# Plot Revenue Growth Rate Range 201709 - 201803
+# Plot Revenue Growth Rate Radom Range 201709 - 201803
 fig = go.Figure(
     data=go.Scatter(x=revenue.query("201709 < order_purchase_timeyearmonth < 201803")['order_purchase_timeyearmonth'],
         y=revenue.query("201709 < order_purchase_timeyearmonth < 201803")['growth_rate'], marker={"color":"IndianRed"},line={"width": 4.5}),
