@@ -238,7 +238,7 @@ fig.update_layout(
 )
 fig.show()
 
-# New Customer Ratio
+# New and Old Customers 
 # Create dataframe, group unique IDs to order time
 customer_order=price_customers_products_time.groupby('customer_unique_id').order_purchase_timestamp.min().reset_index()
 print(customer_order.info())
@@ -285,8 +285,9 @@ fig.add_trace(go.Scatter(x=customers_revenue.query("customers == 'old'")['order_
     )
 fig.update_layout(
     margin=dict(l=20, r=20, t=20, b=20),
-    title='New Customer Ratio',
-    xaxis={"type": "category"},
+    title='New and Old Customers',
+    xaxis={"type": "category",  "title":'Months'},
+    yaxis={"title":'Revenue'}
     paper_bgcolor="IndianRed",
     plot_bgcolor="Gainsboro",
     font=dict(
@@ -300,7 +301,7 @@ fig.update_layout(
     )
 fig.show()
 
-# New Customer Ratio
+# New Customer Rate
 customers_ratio = price_customers_products_time.query("customers == 'new'").groupby(['order_purchase_timeyearmonth'])['customer_unique_id'].nunique()/price_customers_products_time.query("customers == 'old'").groupby(['order_purchase_timeyearmonth'])['customer_unique_id'].nunique() 
 customers_ratio = customers_ratio.reset_index()
 customers_ratio = customers_ratio.dropna()
