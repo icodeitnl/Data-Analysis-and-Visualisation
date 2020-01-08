@@ -19,3 +19,16 @@ Further on, Monthly Revenue and Revenue Growth Rate is calculated and visualised
 
 <img src="https://github.com/icodeitnl/Data-Analysis-and-Visualisation/blob/master/MonthlyRevenue.png"/>
 
+**Revenue Growth Rate**
+The maximum Revenue Growth Rate was reached in January 2017 and is 13033%. A more thorough look into details is required to investigate the сausal relationship that generated such result.
+
+<img src="https://github.com/icodeitnl/Data-Analysis-and-Visualisation/blob/master/RevenueGrowthRate201609.png"/>
+
+A zoom in into random 4 month period from 201709 to 201803 reveals fluctuations within +0,5% and -0,3%.
+
+<img src="https://github.com/icodeitnl/Data-Analysis-and-Visualisation/blob/master/RevenueGrowthRate201710.png"/>
+
+
+
+
+
