@@ -255,13 +255,13 @@ price_customers_products_time= pd.merge(price_customers_products_time, customer_
 print(price_customers_products_time.sample(10))
 print(price_customers_products_time.info())
 
-# Create new column and  lable "new"
+# Create new column and lable "new"
 price_customers_products_time['customers'] = 'new'
 
 # Select cells if customers first invoice was earlier then current
 price_customers_products_time.loc[price_customers_products_time['order_purchase_timeyearmonth']>price_customers_products_time['first_order_ym'],'customers'] = 'old'
 
-# Revenue per month for every user 
+# Revenue per user chronologically
 customers_revenue = price_customers_products_time.groupby(['order_purchase_timeyearmonth','customers'])['revenue'].sum().reset_index()
 
 # Filtering the dates and plot the result
@@ -269,6 +269,8 @@ customers_revenue = customers_revenue.query("order_purchase_timeyearmonth != 201
 
 # Plot New Customer Ratio
 print(customers_revenue.sample(10))
+print(customers_revenue.describe())
+
 
 fig = go.Figure()
 
