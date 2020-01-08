@@ -211,6 +211,7 @@ fig.show()
 # Average Revenue per Order
 average_revenue= price_customers_products_time.groupby(['order_purchase_timeyearmonth'])['revenue'].mean().reset_index()
 print(average_revenue.sample(10))
+print(average_revenue.describe())
 
 # Plot Average Revenue per Order
 fig = go.Figure(
