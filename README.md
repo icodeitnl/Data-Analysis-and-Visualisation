@@ -48,7 +48,7 @@ Now we will plot the ratio of the old clients to the new ones. The biggest diffe
 
 <img src="https://github.com/icodeitnl/Data-Analysis-and-Visualisation/blob/master/NewCustomersRate.png"/>
 
-Finally, we can build the graph for the **Loyalty Rate** (the quotient obtained by dividing loyal customers by total customers). Ironically, our graph displays the most loyal month of two years as *September 2018*, when the revenue dropped to zero and there were no orders made, giving it an index of *one*. This is explained by the fact that the more loyal customers there are the closer the quotient to *one* and the less loyal customers there are the closer the quotient to *zero*, because the amount of the loyal customers can never be larger than the amount of the total customers.
+Finally, we can build the graph for the **Loyalty Rate** (the quotient obtained by dividing loyal customers by total customers). Ironically, our graph displays the most loyal month of two years as *September 2018*, when the revenue dropped to zero and there were no orders made, giving it an index of *one*. This is explained by the fact that the more loyal customers there are the closer the quotient to *one* and the less loyal customers there are the closer the quotient to *zero*, because the amount of the loyal customers can never be larger than the amount of the total customers. Therefore the output of **Cohort Loyalty Rate** that this data analysis module contains on the data has no practical significance.
 
 <img src="https://github.com/icodeitnl/Data-Analysis-and-Visualisation/blob/master/LoyaltyRate.png"/>
 
