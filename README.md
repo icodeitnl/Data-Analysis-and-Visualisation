@@ -40,9 +40,9 @@ Next, we are going to look at the **Monthly Sales**. As expected, the record amo
 
 <img src="https://github.com/icodeitnl/Data-Analysis-and-Visualisation/blob/master/AverageRevenuePerOrder.png"/>
 
-To explore business growth opportunities, the management needs to know its **New Customer Ratio**. The pattern of the plot resembles *monthly revenue* graph. It also reveals that new clients brough almost all of the  business revenue. *June 2018* brought *29.87k reais* in revenue by old customers comparing to *945.20k reais* by the new ones.
+To explore business growth opportunities, the management needs to know its loyal customers rate. In order to do this, first we should try to plot on the graph new and old customers. The pattern of the plot resembles *monthly revenue* graph. It also reveals that new clients brough almost all of the  business revenue. *June 2018* brought *29.87k reais* in revenue by old customers comparing to *945.20k reais* by the new ones.
 
-<img src="https://github.com/icodeitnl/Data-Analysis-and-Visualisation/blob/master/NewCustomerRatio.png"/>
+<img src="https://github.com/icodeitnl/Data-Analysis-and-Visualisation/blob/master/NewAndOldCustomers.png"/>
 
 
 
