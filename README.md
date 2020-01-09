@@ -52,7 +52,7 @@ Finally, we can build the graph for the **Loyalty Rate** (the quotient obtained 
 
 <img src="https://github.com/icodeitnl/Data-Analysis-and-Visualisation/blob/master/LoyaltyRate.png"/>
 
-Summarising this brief data analysis, it is necessary to mention, that despite the low loyalty rates that have been observed, there is still a window for a business opportunity. What makes a good brand is good customer relationships and personalized service. It is not easy for a broker company like Olist to influence the service chain provided by the end marketplaces. However, more marketing research may shed light on ways to increase sales.
+Summarising this brief data analysis, it is necessary to mention, that despite the low loyalty rates that have been observed, there is still a window for a business opportunity. Further marketing research may shed light on new ways to increase sales.
 
 
 
