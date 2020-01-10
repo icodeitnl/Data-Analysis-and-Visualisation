@@ -15,7 +15,7 @@ The second part prepares the data for the following analysis, extracting the rel
 
 Further on, Monthly Revenue and Revenue Growth Rate are calculated and visualized on a graph.
 
-**Monthly Revenue** grew steadily until *November 2017* when it reached its peak of *1.176 million* reais. *December* followed by a drop to the amount of the previous month of *October*. A slight increase in orders by *two hundred thousand* is observed in *January* with a backdrop and raise of about a *hundred thousand in March 2018* and remained relatively the same all the way through *April till May 2015*. Starting from the month of *May*, the orders decreased to *1 million* and from *August to September* plummeted to zero in one month.
+**Monthly Revenue** grew steadily until *November 2017* when it reached its peak of *1.176 million BRL*. *December* followed by a drop to the amount of the previous month of *October*. A slight increase in orders by *two hundred thousand* is observed in *January* with a backdrop and raise of about a *hundred thousand in March 2018* and remained relatively the same all the way through *April till May 2015*. Starting from the month of *May*, the orders decreased to *1 million* and from *August to September* plummeted to zero in one month.
 
 <img src="https://github.com/icodeitnl/Data-Analysis-and-Visualisation/blob/master/MonthlyRevenue.png"/>
 
@@ -36,11 +36,11 @@ Next, we are going to look at the **Monthly Sales**. As expected, the record amo
 
 <img src="https://github.com/icodeitnl/Data-Analysis-and-Visualisation/blob/master/MonthlySales.png"/>
 
-**Average Revenue Per Order** is an important indicator of the business wellbeing. *December 2016* was marked by the most modest **average revenue** of *10 reais*. The highest average *of 156 reais* was reached in *September 2017* and the average revenue per order is *130 reais*.
+**Average Revenue Per Order** is an important indicator of the business wellbeing. *December 2016* was marked by the most modest **average revenue** of *10 BRL*. The highest average *of 156 BRL* was reached in *September 2017* and the average revenue per order is *130 BRL*.
 
 <img src="https://github.com/icodeitnl/Data-Analysis-and-Visualisation/blob/master/AverageRevenuePerOrder.png"/>
 
-To explore business growth opportunities, the management needs to know its **loyal customer rate**. In order to do this, first, we should try to plot on the graph **new and old customers**. The pattern of the plot resembles *monthly revenue* graph. It also reveals that new clients brought almost all of the business revenue. *June 2018* brought *29.87k reais* in revenue by old customers comparing to *945.20k reais* by the new ones.
+To explore business growth opportunities, the management needs to know its **loyal customer rate**. In order to do this, first, we should try to plot on the graph **new and old customers**. The pattern of the plot resembles *monthly revenue* graph. It also reveals that new clients brought almost all of the business revenue. *June 2018* brought *29.87k BRL* in revenue by old customers comparing to *945.20k BRL* by the new ones.
 
 <img src="https://github.com/icodeitnl/Data-Analysis-and-Visualisation/blob/master/NewAndOldCustomers.png"/>
 
