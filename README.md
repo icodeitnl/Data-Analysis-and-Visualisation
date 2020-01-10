@@ -1,6 +1,6 @@
 # Data-Analysis-and-Visualization :shipit:
 
-Context
+
 
 The [Dataset](https://www.kaggle.com/olistbr/brazilian-ecommerce) has information about 100k orders from 2016 to 2018 made at multiple marketplaces in Brazil. Its features allow viewing an order from multiple dimensions: from order status, price, payment and freight performance to customer location, product attributes and finally reviews written by customers.
 
