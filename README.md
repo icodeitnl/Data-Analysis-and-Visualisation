@@ -1,4 +1,4 @@
-# Data-Analysis-and-Visualisation :shipit:
+# Data-Analysis-and-Visualization :shipit:
 
 Context
 
